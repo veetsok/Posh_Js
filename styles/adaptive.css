@@ -1,0 +1,968 @@
+@media screen  and (min-width: 1921px) {
+
+}
+
+@media screen  and (max-width: 1230px) {
+
+    #main #achievements .block-title {
+        text-align: center;
+    }
+
+    #main #achievements #achievements-blocks {
+        justify-content: center;
+    }
+
+
+    #header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #main #reviews .pagingInfo {
+        right: 65px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #teachers {
+        text-align: center;
+        max-width: 530px;
+        margin: 0 auto;
+    }
+
+    #teachers-blocks {
+        margin-top: 0;
+    }
+
+    #main #teachers-blocks .teacher-content {
+        margin-top: 50px;
+    }
+
+    #main #teachers-blocks .teacher-content-skills {
+        padding-left: 0;
+    }
+
+    #main #teachers-blocks .teacher-content-skills-name {
+        margin-top: 25px;
+    }
+
+}
+
+
+@media screen  and (max-width: 1200px) {
+
+    #main #price-content {
+        margin: 40px 0 0 0;
+    }
+
+    #main #price-content .price-content {
+        font-size: 0;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    #main #video-frame iframe {
+        width: 700px;
+    }
+
+    #main #price {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #main #price #price-content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #main #price-content {
+        margin-top: 20px;
+    }
+
+    #main #price-content .price-content {
+        margin-top: 20px;
+    }
+
+
+    #main-container-image {
+        max-width: 400px;
+    }
+
+    #main #reviews #review .slick-prev:before {
+        left: 905px;
+    }
+
+    .slider__counter {
+        left: 960px;
+    }
+
+    #main #reviews #review .slick-next:before {
+        right: 25px;
+    }
+
+    #footer-container .action {
+        margin-left: 0;
+    }
+
+    #footer-container .logo {
+        margin-left: 80px;
+    }
+
+
+}
+
+@media screen  and (max-width: 1120px) {
+    #main #reviews #reviews-blocks {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 384px;
+    }
+}
+
+
+@media screen  and (max-width: 1095px) {
+
+    #main #video-frame iframe {
+        width: 500px;
+        height: 350px;
+    }
+
+    #main #order-content-image {
+        max-width: 425px;
+        top: 75px;
+    }
+}
+
+@media screen  and (max-width: 970px) {
+
+    #main #reviews .pagingInfo {
+        display: none;
+    }
+
+    #main #reviews #reviews-blocks .slick-next {
+        display: none !important;
+    }
+
+    #main #reviews #reviews-blocks .slick-prev {
+        display: none !important;
+    }
+
+    #main #reviews #reviews-blocks {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen  and (max-width: 925px) {
+
+    #main {
+        background: url("../images/main-bg.png");
+        background-position: top;
+        background-size: 100% 100%;
+    }
+
+    #main-container-block {
+        position: static;
+        align-items: center;
+    }
+
+    #main-container {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #main-container-image {
+        margin-top: 70px;
+        order: 2;
+        position: static;
+    }
+
+    #main-container-block-text {
+        order: 3;
+        margin-top: 70px;
+    }
+
+    #main-container-block-action a {
+        margin-top: 70px;
+    }
+
+    #main-container-block-action {
+        order: 4;
+    }
+
+    #main #order-content-image {
+        max-width: 380px;
+        top: 115px;
+    }
+}
+
+@media screen  and (max-width: 890px) {
+
+    #header .action span {
+        display: none;
+    }
+
+    #header .action svg {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: rgb(3, 168, 72);
+        stroke: #FFFFFF;
+        padding: 9px;
+    }
+
+    #main #order-content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #main #order #order-content-list {
+        order: 1;
+
+    }
+
+    #main #order-content-image {
+        position: static;
+        order: 2;
+        margin-top: 70px;
+    }
+
+    .video-title {
+        text-align: center;
+    }
+
+    #main #video {
+        text-align: center;
+        position: static;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #main #video-title {
+        order: 1;
+    }
+
+    #main #video-frame {
+        position: static;
+        margin-top: 40px;
+        order: 2;
+
+    }
+
+    #main #video-text {
+        order: 3;
+    }
+
+    #video-action {
+        order: 4;
+    }
+}
+
+
+@media screen  and (max-width: 840px) {
+
+    #main #reviews #reviews-blocks {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #main #reviews #reviews-blocks .reviews-block {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+}
+
+
+/*579-767*/
+@media screen  and (max-width: 768px) {
+
+    #main #reviews #reviews-blocks .reviews-block-content-image {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .slick-slide {
+        width: 300px;
+    }
+
+    #main #header-container #burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    #main #header-container #menu {
+        display: none;
+
+    }
+
+    #main #header-container #menu a {
+        color: #FFFFFF;
+        padding: 20px 0;
+    }
+
+    #main #header.menu-open #menu {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        top: 0;
+        left: 0;
+        margin: 0;
+        background: #f7983b;
+        z-index: 3;
+        text-align: center;
+        padding: 20px 0;
+        color: #FFFFFF;
+    }
+
+    #main #header.menu-open #menu #menu-open-svg {
+        top: 20px;
+        right: 20px;
+        display: block;
+        width: 15px;
+        fill: #957b62;
+        position: absolute;
+    }
+
+    #main #header-container #menu ul {
+        display: block;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    #main #header-container #menu ul li {
+        margin: 30px auto 0 auto;
+        display: block;
+    }
+
+    #main #header-container #menu ul li:last-child {
+        margin: 30px auto 0 auto;
+    }
+
+    #main #header-container #menu ul li:first-child {
+        margin: 30px auto 0 auto;
+    }
+
+    #main #header-container #menu ul li a {
+        font-size: 14px;
+        color: rgb(17, 16, 16);
+        text-align: center;
+    }
+
+    #main #header-container #menu ul li a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .block-title {
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    #main #header-container #menu a {
+        padding: 0 10px;
+    }
+
+
+    #main-container-image {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+
+    #main #price .block-title {
+        text-align: center;
+    }
+
+    #main #price .subtitle {
+        text-align: center;
+    }
+
+    #main #achievements .block-title {
+        text-align: center;
+    }
+
+    #main #our-achievements-block {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #main #our-achievements-block .our-achievements-content-title {
+        margin-top: 25px;
+    }
+
+    #main #our-achievements-block .our-achievements-content-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+
+    }
+
+    .slider__counter {
+        display: none;
+    }
+
+
+    #main #video-frame frame {
+        width: 308px;
+    }
+
+    #main #video {
+        margin-top: 20px;
+    }
+
+    #main #video-text {
+        margin-top: 20px;
+    }
+
+    #main #reviews #review .review-block {
+        max-width: none;
+    }
+
+    .slick-next:before {
+        display: none;
+    }
+
+    .slick-prev:before {
+        display: none;
+    }
+
+    .slick-dots li button:before {
+        margin-top: 20px;
+        border-width: 1px;
+        border-color: rgb(255, 126, 0);
+        border-style: solid;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        content: '•';
+        text-align: center;
+        opacity: .25;
+        color: transparent;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .slick-dots li.slick-active button:before {
+        border-width: 1px;
+        border-color: rgb(255, 126, 0);
+        border-style: solid;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        content: '•';
+        text-align: center;
+        opacity: 1;
+        background-color: rgb(255, 126, 0);
+        color: transparent;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+
+    .review-block-content {
+        display: inline-block;
+
+    }
+
+    .review-block .slick-slide {
+        width: auto;
+    }
+
+    /*.achievements-block .slick-slide {*/
+    /*    width: auto;*/
+    /*}*/
+    #footer-container {
+        flex-direction: column;
+    }
+
+    #footer-container .logo {
+        order: 1;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #footer-container .action {
+        order: 2;
+        margin-top: 60px;
+    }
+
+    #footer-container-menu {
+        order: 3;
+        margin-top: 60px;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #footer-container-menu .footer-container-menu-item {
+        margin: 20px 0 0 0;
+    }
+
+    #footer-container-menu .footer-container-menu-item:nth-child(2) {
+        margin-right: 0;
+    }
+
+    #footer-container-social {
+        order: 4;
+        margin-left: 0;
+        margin-top: 60px;
+    }
+
+    #footer-container span {
+        order: 5;
+        margin-top: 60px;
+    }
+
+
+}
+
+@media screen  and (max-width: 753px) {
+
+    #main #reviews #reviews-blocks {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #main #reviews #reviews-blocks .reviews-block {
+        margin-left: 66px;
+        margin-right: 66px;
+    }
+
+}
+
+
+@media screen  and (max-width: 750px) {
+    #main #address {
+        flex-wrap: wrap;
+    }
+
+    #main #address-list {
+        padding-bottom: 40px;
+        border-bottom: 2px solid rgb(248, 191, 145);
+    }
+
+    #main #address-contacts {
+        margin-top: 40px;
+        border-left: none;
+    }
+
+}
+
+
+@media screen  and (max-width: 601px) {
+    #main #achievements #achievements-blocks {
+
+    }
+
+    #main #achievements #achievements-blocks .achievements-block-text {
+        margin-top: 10px;
+    }
+
+    #main #achievements #achievements-blocks .achievements-block-image {
+        top: 55px;
+    }
+
+
+}
+
+/*320-579*/
+@media screen  and (max-width: 579px) {
+
+    #main-container-block .block-title {
+        font-size: 30px;
+        order: 1;
+        max-width: 400px;
+    }
+
+
+    #main-container-block #main-container-block-text {
+        order: 3;
+    }
+
+    #main-container-block #main-container-image {
+        order: 2;
+    }
+
+    #main-container-block-action {
+        order: 4;
+    }
+
+
+}
+
+@media screen  and (max-width: 530px) {
+
+    #main #achievements #achievements-blocks .achievements-block-title {
+        order: 2;
+        margin-bottom: 10px;
+    }
+
+    #main #achievements #achievements-blocks .achievements-block-text {
+        order: 1;
+        margin-left: 0;
+        margin-top: 10px;
+        max-width: 280px;
+    }
+
+    #main #achievements #achievements-blocks .achievements-block-image {
+        order: 3;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .block-title {
+        font-size: 26px;
+    }
+
+    #main #video-frame iframe {
+        width: 355px;
+        height: 190px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+/*480 - 499*/
+@media screen  and (max-width: 499px) {
+
+    #main #achievements #achievements-blocks .achievements-block-title {
+        max-width: 150px;
+        margin-left: 85px;
+        font-size: 17px;
+    }
+
+    #main #achievements #achievements-blocks .achievements-block:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main #achievements #achievements-blocks .achievements-block-text {
+        order: 1;
+        margin-left: auto;
+        max-width: 248px;
+        margin-top: 20px;
+    }
+
+    #main #achievements #achievements-blocks .achievements-block-image {
+        top: 35px;
+    }
+}
+
+@media screen  and (max-width: 460px) {
+    #main #our-achievements-block {
+        justify-content: center;
+    }
+}
+
+@media screen  and (max-width: 499px) {
+
+    #main #reviews .block-title {
+        margin-top: 100px;
+    }
+
+    #main #reviews .subtitle {
+        display: none;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block-content-image {
+        width: 94px;
+        height: 94px;
+        margin-right: 0;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block-content-image img {
+        width: 100%;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block {
+        padding: 20px;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block-content-text-title {
+        font-size: 17px;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block-content-text-subtitle {
+        font-size: 14px;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block-content-sub {
+        font-size: 14px;
+    }
+
+    #main #reviews #reviews-blocks .reviews-block-content-text {
+        max-width: 133px;
+        margin-left: 20px;
+    }
+
+    #main #reviews #reviews-blocks {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #main #reviews #reviews-blocks .reviews-block {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+/*320 - 479*/
+@media screen  and (max-width: 479px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #main #our-achievements-block .our-achievements-content-text br {
+        display: none;
+    }
+
+    #main #our-achievements #our-achievements-block #our-achievements-content {
+        padding: 0 11px;
+    }
+
+    #main #our-achievements-block {
+        padding: 25px 4px;
+    }
+
+    #main #achievements {
+        margin: 100px auto 0 auto;
+    }
+
+    #main #our-achievements {
+        margin-top: 100px;
+    }
+
+    #main #our-achievements-block .our-achievements-content-title {
+        font-size: 50px;
+    }
+
+    #main #our-achievements-block .our-achievements-content-text {
+        font-size: 14px;
+        max-width: 119px;
+    }
+
+    #main-container-block-action a {
+        margin-top: 35px;
+    }
+
+    #main-container-block #main-container-block-text {
+        margin-top: 35px;
+    }
+
+    #main-container-block #main-container-image {
+        margin-top: 35px;
+    }
+
+
+    #main #price-content .price-content-block #hot {
+        top: 50px;
+        right: 20px;
+    }
+
+    #main #price-content .price-content-block {
+        padding: 20px;
+        max-width: 326px;
+    }
+
+    #main #price-content .price-content-block ul {
+        padding-left: 20px;
+    }
+
+    #main #price-content .price-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #main #price-content .price-content-block-title {
+        font-size: 20px;
+    }
+
+    #main #price-content .price-content-block ul li {
+        font-size: 16px;
+    }
+
+    #main #price-content .price-content-sub {
+        padding: 20px;
+    }
+
+    #main #price-content .price-content-sub-value {
+        font-size: 20px;
+    }
+
+    #main #order-content-list-block-title {
+        font-size: 20px;
+    }
+
+    #main #order-content-list-block-text {
+        font-size: 15px;
+    }
+
+    #main #order-content-list #order-form input {
+        width: 250px;
+    }
+
+    #main #order-content-list {
+        padding: 20px;
+        max-width: 250px;
+    }
+
+    #main #order-content-image {
+        margin-top: 35px;
+    }
+
+    #main #teachers {
+        margin-top: 100px;
+    }
+
+    #main-container-block .block-title {
+        font-size: 26px;
+        margin: 60px 0 0 0;
+    }
+
+
+    #main-container-block #main-container-block-text {
+        font-size: 16px;
+    }
+
+    #main #video-frame iframe {
+        width: 289px;
+        height: 164px;
+        margin: 0 auto;
+    }
+
+    #main #price .block-title {
+        margin-top: 100px;
+        max-width: 213px;
+    }
+
+    #main #video {
+        flex-direction: inherit;
+    }
+
+    #main #video-action a.btn {
+        width: 267px;
+        margin-top: 20px;
+    }
+
+    #main #address {
+        padding-top: 100px;
+        padding-bottom: 70px;
+        max-width: 247px;
+        flex-direction: column;
+    }
+
+    #main #address-list-blocks .address-block {
+        display: inherit;
+        max-width: 240px;
+    }
+
+    #main #address-list-blocks .address-block-content-text {
+        font-size: 14px;
+    }
+
+    #main #address-list-blocks .address-block-content {
+        width: 205px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+
+    #main #address-list {
+        max-width: 290px;
+    }
+
+    #main #address-list-blocks {
+        margin-top: 3px;
+    }
+
+    #address .block-title {
+        text-align: left;
+    }
+
+    #main #address-list-blocks .address-block {
+        width: auto;
+        margin-top: 32px;
+        margin-right: 0;
+    }
+
+    #main #address-contacts .contact-phone {
+        font-size: 16px;
+    }
+
+    #main #address-contacts .contact-text {
+        font-size: 14px;
+        max-width: 160px;
+    }
+
+    #main #address-contacts .contact-email {
+        font-size: 16px;
+    }
+
+    #footer-container-menu {
+        margin-top: 40px;
+    }
+
+    #footer-container span {
+        text-align: center;
+    }
+
+
+    #call-popup-block {
+        max-width: 260px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #call-popup-block-content-text {
+        font-size: 14px;
+    }
+
+    #call-popup-block-content-input input {
+        width: 230px;
+    }
+}
+
+@media screen  and (max-width: 400px) {
+    #main #reviews #reviews-blocks {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #main #reviews #reviews-blocks .reviews-block {
+        margin-left: 12px;
+        margin-right: 12px;
+        max-width: 250px;
+    }
+
+    #main #price-content .price-content-block {
+        max-width: 250px;
+    }
+
+}

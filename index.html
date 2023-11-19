@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Дипломная работа</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+</head>
+<body>
+
+<div id="main">
+
+    <div id="header">
+        <div id="header-container" class="container">
+            <div class="logo">
+                <a href="">Posh</a>
+            </div>
+            <div id="menu">
+                <svg version="1.1" id="menu-open-svg" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     x="0px" y="0px"
+                     viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;"
+                     xml:space="preserve">
+                <path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
+                    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
+                    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
+                    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
+                    L284.286,256.002z"/>
+                </svg>
+                <ul>
+                    <li>
+                        <a href="#price" class="menu-item">Курсы</a>
+                    </li>
+                    <li>
+                        <a href="#teachers" class="menu-item">Преподаватели</a>
+                    </li>
+                    <li>
+                        <a href="#reviews" class="menu-item">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#address" class="menu-item">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="action">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.0449 21.6208L3.35992 13.9358C-0.109747 10.4661 -0.109749 4.84069 3.35992 1.37102C4.26414 0.466808 5.73016 0.466808 6.63438 1.37103L9.85192 4.58857C10.4377 5.17435 10.4377 6.1241 9.85192 6.70989L8.45876 8.10305C7.48245 9.07936 7.48245 10.6623 8.45876 11.6386L13.7231 16.903C14.6995 17.8793 16.2824 17.8793 17.2587 16.903L18.6518 15.5098C19.2376 14.924 20.1874 14.924 20.7732 15.5098L23.6097 18.3463C24.5139 19.2505 24.5139 20.7165 23.6097 21.6208C20.14 25.0904 14.5145 25.0904 11.0449 21.6208Z"/>
+                </svg>
+                <span>Заказать звонок</span>
+            </div>
+            <div id="burger">&#9776;</div>
+        </div>
+    </div>
+
+    <div id="main-container" class="container">
+        <div id="main-container-block">
+            <div class="block-title">
+                Научим вас свободно <span>говорить на английском</span> всего за 2,5 месяца
+            </div>
+            <div id="main-container-block-text">
+                Заговорить на английском в кротчайшие сроки?
+                <br>Легко! Благодаря разработанным и подтвержденным зарубежными университетами программам, вы можете
+                освоить
+                разговорный английский за 2,5 месяца.
+            </div>
+            <div id="main-container-block-action">
+                <a href="#price">Перейти к курсам</a>
+            </div>
+
+            <div id="main-container-image">
+                <img src="images/main-image.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="achievements" class="container">
+        <div class="block-title">
+            Почему вам стоит <span>учиться у нас</span>?
+        </div>
+        <div id="achievements-blocks">
+
+            <div class="achievements-block">
+                <div class="achievements-block-image">
+                    <img src="images/social-care.png" alt="">
+                </div>
+                <div class="achievements-block-title">
+                    Внимание и забота
+                </div>
+                <div class="achievements-block-text">
+                    Благодаря оптимальному количеству студентов в группке мы уделяем каждому из них должное внимание
+                    и помощь
+                </div>
+            </div>
+
+            <div class="achievements-block">
+                <div class="achievements-block-image">
+                    <img src="images/around.png" alt="">
+                </div>
+                <div class="achievements-block-title">
+                    Зарубежные программы
+                </div>
+                <div class="achievements-block-text">
+                    Обучаем по эталонным программам Великой Британии и США и успешно адаптируем их под каждого из
+                    студентов
+                </div>
+            </div>
+
+            <div class="achievements-block">
+                <div class="achievements-block-image">
+                    <img src="images/service.png" alt="">
+                </div>
+                <div class="achievements-block-title">
+                    Настоящий профессионализм
+                </div>
+                <div class="achievements-block-text">
+                    Наши преподаватели – люди, которые знают английский из реального опыта, подтверждённого
+                    различными сертификатами
+                </div>
+            </div>
+
+            <div class="achievements-block">
+                <div class="achievements-block-image">
+                    <img src="images/icon4.png" alt="">
+                </div>
+                <div class="achievements-block-title">
+                    Сертификат
+                </div>
+                <div class="achievements-block-text">
+                    Вы получите сертификат международного образца по окончанию наших курсов
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="our-achievements" class="container">
+        <div class="block-title">Наши <span>достижения</span></div>
+        <div id="our-achievements-block">
+            <div class="our-achievements-content">
+                <div class="our-achievements-content-title">
+                    360
+                </div>
+                <div class="our-achievements-content-text">
+                    выпускников за <br> всё время работы наших курсов
+                </div>
+            </div>
+
+            <div class="our-achievements-content">
+                <div class="our-achievements-content-title">
+                    5
+                </div>
+                <div class="our-achievements-content-text">
+                    лет успешной <br> работы по городу Киев
+                </div>
+            </div>
+
+            <div class="our-achievements-content">
+                <div class="our-achievements-content-title">
+                    95%
+                </div>
+                <div class="our-achievements-content-text">
+                    позитивных отзывов среди наших выпускников
+                </div>
+            </div>
+
+            <div class="our-achievements-content">
+                <div class="our-achievements-content-title">
+                    15
+                </div>
+                <div class="our-achievements-content-text">
+                    квалифицированных преподавателей
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="price" class="container">
+        <div class="block-title">Какие <span>курсы</span> мы предлагаем</div>
+        <div class="subtitle">Узнайте какой курс подходит вам больше всего</div>
+
+        <div id="price-content">
+            <div class="price-content">
+                <div class="price-content-block active">
+                    <div id="hot"><img src="images/HOT.png" alt=""></div>
+                    <div class="price-content-block-title">
+                        Разговорный английский
+                        за 2,5 месяца
+                    </div>
+                    <div class="price-content-block-subtitle active">
+                        Освойте разговорный английский всего за 10 недель и разрушьте языковой барьер
+                    </div>
+                    <ul>
+                        <li>Уровень: Elementary</li>
+                        <li>Длительность: 2,5 месяца</li>
+                        <li>31 занятие (по З в неделю)</li>
+                        <li>25 домашних заданий</li>
+                        <li>30 часов практики</li>
+                        <li>1000 новых слов и фраз</li>
+                        <li>Знакомства с иностранцами</li>
+
+                        <div class="li-hidden">
+                            <li>Гибкий график занятий</li>
+                            <li>Доступна помесячная оплата</li>
+                            <li>Удобная работа в системе
+                                Google Classroom
+                            </li>
+                            <li>Сертификат по окончанию курса</li>
+                            <li>
+                                <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.5 19.5H0.5V0.5H9.40276L15.5 7.25479V19.5Z"/>
+                                    <path d="M9.3125 0.5V7.1875H15.4375" stroke="#646464" stroke-linecap="round"/>
+                                    <path d="M3.75 10.625H12.25"/>
+                                    <path d="M3.75 13.625H12.25"/>
+                                    <path d="M3.75 16.625H9.125"/>
+                                </svg>
+                                Скачать документ со всей
+                                информацией о курсе (1,8 Мб)
+                            </li>
+                        </div>
+                    </ul>
+                    <div class="price-content-block-short">
+                        <span>Кратко</span>
+                        <svg viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M33.1650874,133.072181 C43.9430028,122.416902 61.3504909,122.310349 72.2609978,132.752523 L72.589617,133.072181 L250,308.463909 L427.410383,133.072181 C438.188298,122.416902 455.595787,122.310349 466.506293,132.752523 L466.834913,133.072181 C477.612828,143.727461 477.720607,160.936879 467.15825,171.723241 L466.834913,172.048121 L269.712265,366.927819 C258.934349,377.583098 241.526861,377.689651 230.616354,367.247477 L230.287735,366.927819 L33.1650874,172.048121 C22.2783042,161.285212 22.2783042,143.83509 33.1650874,133.072181 Z"></path>
+                        </svg>
+                    </div>
+                    <div class="price-content-block-description">
+                        <span>Подробнее</span>
+                        <svg viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M33.1650874,133.072181 C43.9430028,122.416902 61.3504909,122.310349 72.2609978,132.752523 L72.589617,133.072181 L250,308.463909 L427.410383,133.072181 C438.188298,122.416902 455.595787,122.310349 466.506293,132.752523 L466.834913,133.072181 C477.612828,143.727461 477.720607,160.936879 467.15825,171.723241 L466.834913,172.048121 L269.712265,366.927819 C258.934349,377.583098 241.526861,377.689651 230.616354,367.247477 L230.287735,366.927819 L33.1650874,172.048121 C22.2783042,161.285212 22.2783042,143.83509 33.1650874,133.072181 Z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-content-sub active">
+                    <div class="price-content-sub-value">5 500 грн</div>
+                    <div class="price-content-sub-action">
+                        <a href="#order-content" class="active">Записаться</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-content">
+                <div class="price-content-block">
+                    <div class="price-content-block-title">
+                        Бизнес-английский
+                    </div>
+                    <div class="price-content-block-subtitle">
+                        Вы сможете укрепить свою базу англйского для работы в бизнесе и улучшить навыки в переговорах
+                    </div>
+                    <ul>
+                        <li>Уровень: Pre-intermediate /
+                            Low Intermediate
+                        </li>
+                        <li>Длительность: 4 месяца</li>
+                        <li>35 занятий (по 2 в неделю)</li>
+                        <li>30 домашних заданий</li>
+                        <li>20 часов практики</li>
+                        <li>1200 тематических слов <br>
+                            и фраз
+                        </li>
+                        <div class="li-hidden">
+                            <li>Гибкий график занятий</li>
+                            <li>Доступна помесячная оплата</li>
+                            <li>Удобная работа в системе
+                                Google Classroom
+                            </li>
+                            <li>Сертификат по окончанию курса</li>
+                            <li>
+                                <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.5 19.5H0.5V0.5H9.40276L15.5 7.25479V19.5Z"/>
+                                    <path d="M9.3125 0.5V7.1875H15.4375" stroke="#646464" stroke-linecap="round"/>
+                                    <path d="M3.75 10.625H12.25"/>
+                                    <path d="M3.75 13.625H12.25"/>
+                                    <path d="M3.75 16.625H9.125"/>
+                                </svg>
+                                Скачать документ со всей
+                                информацией о курсе (1,8 Мб)
+                            </li>
+                        </div>
+                    </ul>
+                    <div class="price-content-block-short">
+                        <span>Кратко</span>
+                        <svg viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M33.1650874,133.072181 C43.9430028,122.416902 61.3504909,122.310349 72.2609978,132.752523 L72.589617,133.072181 L250,308.463909 L427.410383,133.072181 C438.188298,122.416902 455.595787,122.310349 466.506293,132.752523 L466.834913,133.072181 C477.612828,143.727461 477.720607,160.936879 467.15825,171.723241 L466.834913,172.048121 L269.712265,366.927819 C258.934349,377.583098 241.526861,377.689651 230.616354,367.247477 L230.287735,366.927819 L33.1650874,172.048121 C22.2783042,161.285212 22.2783042,143.83509 33.1650874,133.072181 Z"></path>
+                        </svg>
+                    </div>
+                    <div class="price-content-block-description">
+                        <span>Подробнее</span>
+                        <svg viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M33.1650874,133.072181 C43.9430028,122.416902 61.3504909,122.310349 72.2609978,132.752523 L72.589617,133.072181 L250,308.463909 L427.410383,133.072181 C438.188298,122.416902 455.595787,122.310349 466.506293,132.752523 L466.834913,133.072181 C477.612828,143.727461 477.720607,160.936879 467.15825,171.723241 L466.834913,172.048121 L269.712265,366.927819 C258.934349,377.583098 241.526861,377.689651 230.616354,367.247477 L230.287735,366.927819 L33.1650874,172.048121 C22.2783042,161.285212 22.2783042,143.83509 33.1650874,133.072181 Z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-content-sub">
+                    <div class="price-content-sub-value">8 000 грн</div>
+                    <div class="price-content-sub-action">
+                        <a href="#order-content">Записаться</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-content">
+                <div class="price-content-block">
+                    <div class="price-content-block-title">
+                        Английский для продвинутых
+                    </div>
+                    <div class="price-content-block-subtitle">
+                        Вы существенно улучшите знания английского и выведете его на более высокий уровень
+                    </div>
+                    <ul>
+                        <li>Уровень: Upper Intermediate /
+                            Advanced
+                        </li>
+                        <li>Длительность: 3 месяца</li>
+                        <li>25 занятий (по 2 в неделю)</li>
+                        <li>2 уникальных внеклассных
+                            занятия
+                        </li>
+                        <li>15 домашних заданий</li>
+                        <div class="li-hidden">
+                            <li>Гибкий график занятий</li>
+                            <li>Доступна помесячная оплата</li>
+                            <li>Удобная работа в системе
+                                Google Classroom
+                            </li>
+                            <li>Сертификат по окончанию курса</li>
+                            <li>Скачать документ со всей
+                                информацией о курсе (1,8 Мб)
+                            </li>
+                            <li>
+                                <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.5 19.5H0.5V0.5H9.40276L15.5 7.25479V19.5Z"/>
+                                    <path d="M9.3125 0.5V7.1875H15.4375" stroke="#646464" stroke-linecap="round"/>
+                                    <path d="M3.75 10.625H12.25"/>
+                                    <path d="M3.75 13.625H12.25"/>
+                                    <path d="M3.75 16.625H9.125"/>
+                                </svg>
+                                Скачать документ со всей
+                                информацией о курсе (1,8 Мб)
+                            </li>
+                        </div>
+
+                    </ul>
+                    <div class="price-content-block-short">
+                        <span>Кратко</span>
+                        <svg viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M33.1650874,133.072181 C43.9430028,122.416902 61.3504909,122.310349 72.2609978,132.752523 L72.589617,133.072181 L250,308.463909 L427.410383,133.072181 C438.188298,122.416902 455.595787,122.310349 466.506293,132.752523 L466.834913,133.072181 C477.612828,143.727461 477.720607,160.936879 467.15825,171.723241 L466.834913,172.048121 L269.712265,366.927819 C258.934349,377.583098 241.526861,377.689651 230.616354,367.247477 L230.287735,366.927819 L33.1650874,172.048121 C22.2783042,161.285212 22.2783042,143.83509 33.1650874,133.072181 Z"></path>
+                        </svg>
+                    </div>
+                    <div class="price-content-block-description">
+                        <span>Подробнее</span>
+                        <svg viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M33.1650874,133.072181 C43.9430028,122.416902 61.3504909,122.310349 72.2609978,132.752523 L72.589617,133.072181 L250,308.463909 L427.410383,133.072181 C438.188298,122.416902 455.595787,122.310349 466.506293,132.752523 L466.834913,133.072181 C477.612828,143.727461 477.720607,160.936879 467.15825,171.723241 L466.834913,172.048121 L269.712265,366.927819 C258.934349,377.583098 241.526861,377.689651 230.616354,367.247477 L230.287735,366.927819 L33.1650874,172.048121 C22.2783042,161.285212 22.2783042,143.83509 33.1650874,133.072181 Z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-content-sub">
+                    <div class="price-content-sub-value">6 500 грн</div>
+                    <div class="price-content-sub-action">
+                        <a href="#order-content">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="order" class="container">
+        <div id="order-content">
+            <div class="block-title">
+                Уже определились с курсом?<br>
+                Вы можете <span>оставить заявку </span>ниже
+            </div>
+            <div id="order-content-list">
+                <div id="form-success">
+                    <div id="form-success-text">
+                        Спасибо за заказ. Мы свяжемся с вами в ближайшее время!
+                    </div>
+                </div>
+                <div id="order-content-list-block">
+                    <div id="order-content-list-block-title">Оставьте заявку</div>
+                    <div id="order-content-list-block-text">
+                        После выбора курса оставьте свой номер телефона или почту для дальнейшего
+                        подтверждения заявки
+                    </div>
+                    <div id="order-form">
+                        <form action="">
+                            <div id="form-content">
+
+                                <div id="form-select" data-state="">
+                                    <div class="form-title" data-default="Бизнес-английский">Бизнес-английский</div>
+                                    <div class="form-content">
+                                        <input id="singleSelect0" class="form-input" type="radio"
+                                               name="singleSelect" checked/>
+                                        <label for="singleSelect0" class="form-label">Английский для
+                                            продвинутых</label>
+                                        <input id="singleSelect1" class="form-input" type="radio"
+                                               name="singleSelect"/>
+                                        <label for="singleSelect1" class="form-label">Бизнес-английский</label>
+                                        <input id="singleSelect2" class="form-input" type="radio"
+                                               name="singleSelect">
+                                        <label for="singleSelect2" class="form-label">Комплексный английский</label>
+                                        <input id="singleSelect3" class="form-input" type="radio"
+                                               name="singleSelect"/>
+                                        <label for="singleSelect3" class="form-label">Разговорный английский
+                                            за 2,5 месяца</label>
+                                        <input id="singleSelect4" class="form-input" type="radio"
+                                               name="singleSelect"/>
+                                        <label for="singleSelect4" class="form-label">Itlogia</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div>
+                                <input id="phone" type="text" placeholder="+380(___) ___-__-__">
+                                <div class="error-input">Требуется Телефон</div>
+                            </div>
+                            <div>
+                                <input id="e-mail" type="text" placeholder="yourmailhere@exmail.com">
+                                <div class="error-input">Требуется электронная почта</div>
+                            </div>
+                            <div>
+                                <button href="#" class="btn" type="button" id="submit">Оставить заявку
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="order-content-image">
+                <img src="images/order.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="teachers" class="container">
+        <div class="block-title">
+            <span>Талантливые</span> преподаватели
+        </div>
+        <div class="subtitle">Вас научат лучшие преподаватели. Знакомьтесь!</div>
+        <div id="teachers-blocks">
+            <div class="teacher-content">
+                <div class="teacher-content-image">
+                    <img src="images/Timofey.png" alt="">
+                </div>
+                <div class="teacher-content-skills">
+                    <div class="teacher-content-skills-name">Тимофей Ткачук</div>
+                    <ul>
+                        <li>Уровень владения английским: <span>С2</span></li>
+                        <li>Опыт работы: <span>5 лет</span></li>
+                        <li>Заграничный опыт: <span>1,5 года</span></li>
+                        <li>Сертификаты: <span> CAE, CPE</span></li>
+                        <li>Курсы: <span>Бизнес английский, Разговорный английский <br>
+                            за 2,5 месяц</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="teacher-content">
+                <div class="teacher-content-image">
+                    <img src="images/Inna.png" alt="">
+                </div>
+                <div class="teacher-content-skills">
+                    <div class="teacher-content-skills-name">Инна Шевченко</div>
+                    <ul>
+                        <li>Уровень владения английским: <span>С1</span></li>
+                        <li>Опыт работы: <span>2,5 года</span></li>
+                        <li>Заграничный опыт: <span>3 месяца</span></li>
+                        <li>Сертификаты: <span>TOEFL, CAE</span></li>
+                        <li>Курсы: <span>Бизнес английский, Комплексный английский</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="teacher-content">
+                <div class="teacher-content-image">
+                    <img src="images/Roman.png" alt="">
+                </div>
+                <div class="teacher-content-skills">
+                    <div class="teacher-content-skills-name">Роман Соловей</div>
+                    <ul>
+                        <li>Уровень владения английским: <span>С2</span></li>
+                        <li>Опыт работы: <span>10 лет</span></li>
+                        <li>Заграничный опыт: <span>8 лет</span></li>
+                        <li>Сертификаты: <span> CAE, CPE, TOEFL, IELTS</span></li>
+                        <li>Курсы: <span>Бизнес английский, Разговорный английский <br>
+                            за 2,5 месяц, +2курса</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="teacher-content">
+                <div class="teacher-content-image">
+                    <img src="images/Julia.png" alt="">
+                </div>
+                <div class="teacher-content-skills">
+                    <div class="teacher-content-skills-name">Юлия Король</div>
+                    <ul>
+                        <li>Уровень владения английским: <span>С2</span></li>
+                        <li>Опыт работы: <span>11 лет</span></li>
+                        <li>Сертификаты: <span> CAE, CPE, FCE</span></li>
+                        <li>Курсы: <span>Бизнес английский, Разговорный английский,<br>
+                            Английский для продвинутых</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reviews" class="container">
+        <div class="block-title">
+            Почитайте, что говорят о нас <span>наши выпускники</span>
+        </div>
+        <div class="subtitle">Узнайте, что думают о нас ученики</div>
+        <span class="pagingInfo"></span>
+        <div id="reviews-blocks">
+            <div class="reviews-block">
+                <div class="reviews-block-content">
+                    <div class="reviews-block-content-image">
+                        <img src="images/veronika.png" alt="">
+                    </div>
+                    <div class="reviews-block-content-text">
+                        <div class="reviews-block-content-text-title">Вероника Власенкова</div>
+                        <div class="reviews-block-content-text-subtitle">
+                            Курс: Разговорный
+                            английский за 2,5 месяца
+                        </div>
+                    </div>
+                    <div class="reviews-block-content-stars">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                    </div>
+
+                    <div class="reviews-block-content-sub">
+                        Я в восторге. Я действительно освоила английский так, что теперь могу без проблем ездить по
+                        Европе и
+                        общаться с иностранцами. Смотрю видео американских блогеров на Ютубе и понимаю почти всё.
+                        Советую!
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="reviews-block">
+                <div class="reviews-block-content">
+                    <div class="reviews-block-content-image">
+                        <img src="images/maksim.png" alt="">
+                    </div>
+                    <div class="reviews-block-content-text">
+                        <div class="reviews-block-content-text-title">Максим Коваль</div>
+                        <div class="reviews-block-content-text-subtitle">
+                            Курс: Бизнес
+                            английский
+                        </div>
+                    </div>
+                    <div class="reviews-block-content-stars">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                    </div>
+
+                    <div class="reviews-block-content-sub">
+                        Это были очень плодотворных 4 месяца для меня. Бизнес английский был именно тем, чего мне не
+                        хватало и теперь я могу вести переговоры более уверенно и успешно. Преподаватели действительно
+                        мастера своего дела! Однозначно рекомендую!
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="reviews-block">
+                <div class="reviews-block-content">
+                    <div class="reviews-block-content-image">
+                        <img src="images/darya.png" alt="">
+                    </div>
+                    <div class="reviews-block-content-text">
+                        <div class="reviews-block-content-text-title">Дарья Кравченко</div>
+                        <div class="reviews-block-content-text-subtitle">
+                            Курс: Комплексный
+                            английский
+                        </div>
+                    </div>
+                    <div class="reviews-block-content-stars">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/nostar.png" alt="">
+                    </div>
+
+                    <div class="reviews-block-content-sub">
+                        За пол года я очень здорово подтянула грамматику, говорение и письмо. Это одни из лучших курсов,
+                        о которых я слышала и я не жалею ни о чём, поскольку сейчас очень уверенно чувствую себя, когда
+                        пишу или говорю на английском. Спасибо огромное преподавателям! Рекомендую.
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="reviews-block">
+                <div class="reviews-block-content">
+                    <div class="reviews-block-content-image">
+                        <img src="images/Irina.jpg" alt="">
+                    </div>
+                    <div class="reviews-block-content-text">
+                        <div class="reviews-block-content-text-title">Ирина Попова</div>
+                        <div class="reviews-block-content-text-subtitle">
+                            Курс: Разговорный
+                            английский
+                            за 2,5 месяца
+                        </div>
+                    </div>
+                    <div class="reviews-block-content-stars">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/nostar.png" alt="">
+                    </div>
+
+                    <div class="reviews-block-content-sub">
+                        За прошедшие занятия я запомнила много слов и стала употреблять их в речи. Говорить на
+                        английском стало намного легче, также постепенно исправляется проблема с написанием слов. В
+                        целом мне очень нравится, как проходят уроки, и я вижу прогресс.
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="reviews-block">
+                <div class="reviews-block-content">
+                    <div class="reviews-block-content-image">
+                        <img src="images/Konstantin.jpg" alt="">
+                    </div>
+                    <div class="reviews-block-content-text">
+                        <div class="reviews-block-content-text-title">Константин Жуков</div>
+                        <div class="reviews-block-content-text-subtitle">
+                            Курс: Комплексный английский
+                        </div>
+                    </div>
+                    <div class="reviews-block-content-stars">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                    </div>
+
+                    <div class="reviews-block-content-sub">
+                        Это было невероятное приключение, сродни покорению вершин заснеженных гор, или покорением
+                        космоса. Каждое занятие было, как погружение в невероятную вселенную неизведанного, окружающего
+                        нас в этом мире.
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="reviews-block">
+                <div class="reviews-block-content">
+                    <div class="reviews-block-content-image">
+                        <img src="images/Vika.jpg" alt="">
+                    </div>
+                    <div class="reviews-block-content-text">
+                        <div class="reviews-block-content-text-title">Виктория Стрижевская</div>
+                        <div class="reviews-block-content-text-subtitle">
+                            Курс: Разговорный
+                            английский
+                            за 2,5 месяца
+                        </div>
+                    </div>
+                    <div class="reviews-block-content-stars">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/star.png" alt="">
+                        <img src="images/nostar.png" alt="">
+                    </div>
+
+                    <div class="reviews-block-content-sub">
+                        Расширен словарный запас. Более уверенное владение разговорным английским языком. Появилась
+                        возможность и желание просмотра фильмов на английском языке. Расширен круг знакомств с
+                        интересными людьми.
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block-title container video-title">
+        Видео об <span>учебном процессе</span>
+    </div>
+
+    <div id="video" class="container">
+
+        <div id="video-frame">
+            <iframe width="847" height="480" src="https://www.youtube.com/embed/4haurn3S8z8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+        <div id="video-title">
+            Посмотрите короткое видео о нас и узнайте, как проходят занятия
+        </div>
+        <div id="video-text">
+            На видео показаны съёмки с реальных уроков всех наших курсов. Не упустите возможность узнать и
+            увидеть как можно больше перед тем, как записаться к нам на курсы!
+        </div>
+        <div id="video-action">
+            <a class="btn" href="#price">
+                Смотреть курсы
+            </a>
+        </div>
+    </div>
+
+    <div id="address" class="container">
+        <div id="address-list">
+            <div class="block-title"><span>Адреса</span> классов</div>
+
+            <div id="address-list-blocks">
+
+                <div class="address-block">
+                    <div class="address-block-image">1</div>
+                    <div class="address-block-content">
+                        <div class="address-block-content-title">ул. Павловская, 313</div>
+                        <div class="address-block-content-text">Бизнес английский</div>
+                        <div class="address-block-content-text">Разговорный английский за 2,5 месяца</div>
+                    </div>
+                </div>
+
+                <div class="address-block">
+                    <div class="address-block-image">4</div>
+                    <div class="address-block-content">
+                        <div class="address-block-content-title">ул. Крещатик, 14</div>
+                        <div class="address-block-content-text">Бизнес-английский</div>
+                        <div class="address-block-content-text">Английский для продвинутых</div>
+                        <div class="address-block-content-text">Комплексный английский</div>
+                        <div class="address-block-content-text">Разговорный английский за 2,5 месяца</div>
+                    </div>
+                </div>
+
+                <div class="address-block">
+                    <div class="address-block-image">2</div>
+                    <div class="address-block-content">
+                        <div class="address-block-content-title">ул. Тургеневская, 46</div>
+                        <div class="address-block-content-text">Комплексный английский</div>
+                        <div class="address-block-content-text">Разговорный английский за 2,5 месяца</div>
+                        <div class="address-block-content-text">Английский для продвинутых</div>
+                    </div>
+                </div>
+
+
+                <div class="address-block">
+                    <div class="address-block-image">5</div>
+                    <div class="address-block-content">
+                        <div class="address-block-content-title">б-р Работы, 98</div>
+                        <div class="address-block-content-text">Бизнес-английский</div>
+                    </div>
+                </div>
+
+                <div class="address-block">
+                    <div class="address-block-image">3</div>
+                    <div class="address-block-content">
+                        <div class="address-block-content-title">Оболонский пр-т, 140</div>
+                        <div class="address-block-content-text">Бизнес-английский</div>
+                        <div class="address-block-content-text">Английский для продвинутых</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="address-contacts">
+            <div class="block-title">
+                Контакты
+            </div>
+            <div class="contact">
+                <div class="contact-title">Мы на связи:</div>
+                <div class="contact-phone">+ 380 (98) 931 42 88</div>
+                <div class="contact-phone">+ 380 (67) 060 23 53</div>
+                <div class="contact-text">Звонки принимаются с Пн-Сб с 9:00-20:00</div>
+            </div>
+            <div class="contact">
+                <div class="contact-title">Наш e-mail:</div>
+                <div class="contact-email">poshschool@exmail.com</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div id="footer-container" class="container">
+        <div class="logo"><a href="">Posh</a></div>
+        <div id="footer-container-menu">
+            <div class="footer-container-menu-item">
+                <a href="#price" class="menu-item">Курсы</a>
+            </div>
+            <div class="footer-container-menu-item">
+                <a href="#reviews" class="menu-item">Отзывы</a>
+            </div>
+            <div class="footer-container-menu-item">
+                <a href="#teachers" class="menu-item">Преподаватели</a>
+            </div>
+            <div class="footer-container-menu-item">
+                <a href="#address" class="menu-item">Контакты</a>
+            </div>
+        </div>
+        <div id="footer-container-social">
+            <div id="footer-container-social-text">
+                Мы в соц.сетях
+            </div>
+            <div id="footer-container-social-image">
+                <a href="https://ru-ru.facebook.com/eminem" target="_blank"><img src="images/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/eminem" target="_blank"><img src="images/instagram.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCfM3zsQsOnfWNUppiycmBuw " target="_blank"><img
+                        src="images/youtube.png" alt=""></a>
+            </div>
+
+        </div>
+        <div class="action">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.0449 21.6208L3.35992 13.9358C-0.109747 10.4661 -0.109749 4.84069 3.35992 1.37102C4.26414 0.466808 5.73016 0.466808 6.63438 1.37103L9.85192 4.58857C10.4377 5.17435 10.4377 6.1241 9.85192 6.70989L8.45876 8.10305C7.48245 9.07936 7.48245 10.6623 8.45876 11.6386L13.7231 16.903C14.6995 17.8793 16.2824 17.8793 17.2587 16.903L18.6518 15.5098C19.2376 14.924 20.1874 14.924 20.7732 15.5098L23.6097 18.3463C24.5139 19.2505 24.5139 20.7165 23.6097 21.6208C20.14 25.0904 14.5145 25.0904 11.0449 21.6208Z"/>
+            </svg>
+            <span>Заказать звонок</span>
+        </div>
+        <div id="span">Все права защищены, @yellowblueua 2021.</div>
+    </div>
+</div>
+
+<div id="call-popup">
+    <div id="call-popup-block">
+        <svg id="call-cancel" version="1.1" xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             x="0px" y="0px"
+             viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;"
+             xml:space="preserve">
+                        <path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
+                            L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
+                            c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
+                            l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
+                            L284.286,256.002z"/>
+                    </svg>
+        <div id="call-popup-block-content">
+
+            <div id="call-popup-block-content-title">
+                Закажите звонок
+            </div>
+            <div id="call-popup-block-content-text">
+                Если у вас есть вопросы или необходима консультация, то вы можете оставить свой номер телефона и
+                мы вам перезвоним в ближайшее время
+            </div>
+            <form action="" method="post">
+                <div id="call-popup-block-content-input">
+                    <input class="phone" type="text" placeholder="+380 (__) ___-__-__">
+                </div>
+                <p id="call-popup-error">
+                    Заполните правильно все поля
+                </p>
+            </form>
+            <div id="call-popup-button">
+                <button class="btn">
+                    Позвоните мне
+                </button>
+            </div>
+        </div>
+
+        <div id="call-popup-sent">
+            <h2>Спасибо, мы свяжемся с вами в ближайшее время!</h2>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="js/main.js">
+
+</script>
+</body>
+</html>
